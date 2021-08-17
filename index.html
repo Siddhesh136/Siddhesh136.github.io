@@ -1,232 +1,488 @@
-<!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<!doctype html>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!--For Icons-->
-      <link rel="icon" href="images/avatar.jpg" type="image/jpg" sizes="16x16">
-      <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-      <title>Siddhesh Kadam</title>
-      <style type = "text/css">
-      .myDiv{
-        background-color: purple ;
-        height: 15vh;
-        width: 100vw;
-        }
-        .welcome{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 100 px ;
-          color: #3498db !important;
-          font-family: 'Lobster', cursive;
-          color: white;
-        }
-        .div2{
-          background-color: white ;
-          height: 5vh;
-          width: 100vw;
-        }
-        .div3{
-          background-color: #feca57 ;
-          height: 40vh;
-          width: 100vw;
-        }
-        .cards{
-          height: 20vh;
-          width: 20vw;
-           margin-left: 30px;
-           margin-top: 100px;
-          padding-top: 10px;
-        }
+<html lang="en">
+<head>
+     <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-       
-      </style>
-    </head>
+     <!--Let browser know website is optimized for mobile-->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/avatar1.jpg" type="image/jpg"> 
 
-    <body>
+  <title>Siddhesh Kadam</title>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="css/home_page.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&family=STIX+Two+Text&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&family=STIX+Two+Text&family=WindSong:wght@400;500&display=swap" rel="stylesheet">  
+</head>
 
-    <!--Navbar-->
-  <nav class="red accent-3">
-    <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo">&nbsp;&nbsp;&nbsp;&nbsp;Siddhesh</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="youtube.html">YouTube Channel</a></li>
-        <li><a href="http://techhacked136.blogspot.com/">Blog</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
+<body>
+<div>
+  <!-- your content here... -->
+ 
 
-  <ul class="sidenav" id="mobile-demo">
-        <li><a href="index.html"><i class="small material-icons">account_balance</i>Home</a></li>
-        <li><a href="youtube.html"><i class="small material-icons">video_library</i>YouTube Channel</a></li>
-        <li><a href="http://techhacked136.blogspot.com/"><i class="small material-icons">assignment</i>Blog</a></li>
-        <li><a href="projects.html"><i class="small material-icons">code</i>Projects</a></li>
-        <li><a href="experience.html"><i class="small material-icons">graphic_eq</i>Experience</a></li>
-        <li><a href="contact.html"><i class="small material-icons">near_me</i>Contact</a></li>
-  </ul>
-  <script type="text/javascript">
-   $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-  </script>
-  <div id = "particles-js" class="myDiv">
-     
-
-  </div>
-
-  <div class="div2">
-
-  <div class="welcome">
-     <span id="typed"></span>
-      <script src="js/typed.js"></script>
-      <script>
-       var typed = new Typed("#typed", {
-          stringsElement: '#typed-strings',
-          typeSpeed: 120,
-          backSpeed: 100,
-          loop : true
-        });
-      </script>
-    </div>
-   </div>
-
-    <div class="container">
-      <div class="row">
-         <div class="carousel">
-          <a class="carousel-item" href="#one!"><img src="images/avatar.jpg" width="350" height="180"></a>
-          <a class="carousel-item" href="#two!"><img src="images/des.JPG" width="350" height="180"></a>
-          <a class="carousel-item" href="#four!"><img src="images/hyd.JPG" width="350" height="180"></a>
-          <a class="carousel-item" href="#three!"><img src="images/college.JPG" width="350" height="180"></a>
-          <a class="carousel-item" href="#three!"><img src="images/infy.JPG" width="350" height="180"></a>
-          <a class="carousel-item" href="#three!"><img src="images/infy_friends.JPG" width="350" height="180"></a>
-          <a class="carousel-item" href="#five!"><img src="images/diploma.JPG" width="350" height="180"></a>
-          <a class="carousel-item" href="#three!"><img src="images/bombsquad.JPG" width="350" height="180"></a>
+    <nav class="black" id="navigation_bar">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">&nbsp;&nbsp;&nbsp;&nbsp;Home</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about"><h4>About</h4></a></li>
+            <li><a href="#certifications"><h4>Certifications</h4></a></li>
+            <li><a href="#recommendations"><h4>Recommendations</h4></a></li>
+            <li><a href="#youtube"><h4>YouTube</h4></a></li>
+            <li><a href="#experiences"><h4>Experience</h4></a></li>
+            <li><a href="#contact"><h4>Contact</h4></a></li>
+          </ul>
         </div>
-        <script type="text/javascript">
-            document.addEventListener('DOMContentLoaded', function() {
-            var elems = document.querySelectorAll('.carousel');
-            var instances = M.Carousel.init(elems, options);
-            });
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+            <li><a href="#about"><i class="small material-icons">inbox</i>About</a></li>  
+            <li><a href="#certifications"><i class="small material-icons">chrome_reader_mode</i>Certifications</a></li>
+            <li><a href="#recommendations"><i class="small material-icons">hearing</i>Recommendations</a></li>
+            <li><a href="#youtube"><i class="small material-icons">video_library</i>YouTube</a></li>
+            <li><a href="#experiences"><i class="small material-icons">graphic_eq</i>Experience</a></li>
+            <li><a href="#contact"><i class="small material-icons">near_me</i>Contact</a></li>
+      </ul>
+      <script type="text/javascript">
 
-          // Or with jQuery
+        window.onscroll = function() {myFunction()};
+// Sticky Nav Bar content
+        // Get the navbar
+        var navbar = document.getElementById("navigation_bar");
 
-          $(document).ready(function(){
-            $('.carousel').carousel();
-          });
-      
-        </script>
-      </div>
-  </div>
+        // Get the offset position of the navbar
+        var sticky = navbar.offsetTop;
 
-  <div class=" container">
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+//End of Sticky Navbar content
+
+        $(document).ready(function(){
+         $('.sidenav').sidenav();
+       });
+       </script>
+<hr class="new3">
+
+ <section id = "home">
+    <center><img src="images/avatar1.jpg" class="circular_image">
+    <h1>Siddhesh Kadam</h1>
+    <h3>Application Development Analyst</h3>
+    <i class="material-icons" style = "color: aliceblue">location_on</i><h4 style="color: aliceblue; display: inline; padding-left: 15px;">Pune, India</h4>
+    </center>
+  </section>
+
+
+
+
+<section id="about">
+    <hr class="new3">
+    <center><h2 class="section_header">About</h2></center>
     <div class="row">
+        <div class="col s12 m4 l2"></div>
+       <div class="col s12 m4 l9"><p class="section_content">Currently working as <b style="color:crimson;">Application Development Analyst</b> , 
+        specially on SAP Business Warehouse Module and HANA component with Focus on providing Integrated Planning Capability for Business based on Planning
+        components like Planning Function, Planning Sequences, BeX Components and BW4HANA Modeling etc.<br><br>
+        In my Spare time I like reading book specially a mix of Fiction and Self help Books and also reminiscing about Good events and exploring 
+        about new technologies, also I have started learning iOS App Development and I'm truly loving it.
+        <br><br>Recently I have started giving seminars on topics related to tech to different colleges as that also helps me improving my Communication skills 
+        and also provides a path to give back to the society.
+        <br><br>I can code in Python, HTML, CSS, Javascript, SQL, ABAP.
+        <br><br>My Long term goal is to work for the educational development of the Orphans Students :)
+        
+    
+    </p></div>
+    </div>
+</section>
 
-       <div class="grid-example col s12 m4">
-       <span class="flow-text">
-        <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/youtube.png" width="500" height="250">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">YouTube Channel<i class="material-icons right">more_vert</i></span>
-              <p><a href="youtube.html">Check YouTube Videos</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">YouTube Channel<i class="material-icons right">close</i></span>
-              <p>YouTube is what I find as a medium to express and Teach to the World the Knowledge you possess so that the world becomes a better place.Do Check out my Contribution on YouTube.</p>
-            </div>
-      </div>
-      </span>
-      </div>
 
-      <div class="grid-example col s12 m4">
-       <span class="flow-text">
-        <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/projects.jpg" width="500" height="250">
+<section id="certifications">
+    <hr class="new3">
+    <center><h2 class="section_header">Certifications</h2></center>
+  
+        <div class="container">
+            <div class="row">
+            <ul class="collapsible popout ">
+              <li class="red lighten-5 active">
+                    <div class="collapsible-header teal accent-2"><i class="material-icons">class</i>Infosys Certified Global Agile Developer</div>
+                    <div class="collapsible-body"><img src="images/infosys.jpeg" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;">Completed Infosys Certified Global Agile Developer<br><a href="https://drive.google.com/open?id=1odowHiAdzrKqT4KDVQQYv5pqbUVBBVAK">See Certificate</a></span></div>
+              </li>
+              <li class="red lighten-5">
+                <div class="collapsible-header deep-purple lighten-2"><i class="material-icons">class</i>Efficient DevOps with SAP</div>
+                <div class="collapsible-body"><img src="images/sap.jpeg" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;">Completed Efficient DevOps with SAP<br>May 2021 – Present<br><a href="https://open.sap.com/verify/xivam-sutim-kefek-zydap-nuvem">See Certificate</a></span></div>
+              </li>
+              <li class="red lighten-5">
+                <div class="collapsible-header teal accent-2"><i class="material-icons">class</i>Microstrategy Certified Analyst</div>
+                <div class="collapsible-body"><img src="images/mstr.jpeg" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;">Completed Microstrategy Certified Analyst<br>June 2020 – Present License 19572657<br><a href="https://www.credential.net/68e870fa-2323-457f-ae20-e79664e5d0d2">See Certificate</a></span></div>
+              </li>
+              <li class="red lighten-5" >
+                <div class="collapsible-header deep-purple lighten-2"><i class="material-icons">class</i>Blockchain Essentials</div>
+                <div class="collapsible-body"><img src="images/ibm.jpeg" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;"></span>Completed Blockchain Essentials Course from IBM DeveloperWorks<br>Mar 2018 – Present<br><a href="https://courses.cognitiveclass.ai/certificates/ec2ee1c970004e47b296daf26c1e3e5d">See Certificate</a></span></div>
+              </li>
+              <li class="red lighten-5" >
+                <div class="collapsible-header teal accent-2"><i class="material-icons">class</i>Exasol Certified Database Developer</div>
+                <div class="collapsible-body"><img src="images/exasol.png" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;"></span>Completed Exasol Certified Database Developer<br>January 2019 – Present<br><a href="https://drive.google.com/file/d/1emyHj1xsrpX70AuMfZgTJ_Nwy3Dg1wnN/view?usp=drivesdk">See Certificate</a></span></div>
+              </li>
+              <li class="red lighten-5" >
+                <div class="collapsible-header deep-purple lighten-2"><i class="material-icons">class</i>Data Analysis with Python</div>
+                <div class="collapsible-body"><img src="images/ibm1.png" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;">Completed Data Analysis with Python by IBM DeveloperWorks<br>May 2019 – Present<br><a href="https://courses.cognitiveclass.ai/certificates/22d251e951ba4cdb92f743233ab39ed6">See Certificate</a></span></div>
+              </li>
+              <li class="red lighten-5" >
+                <div class="collapsible-header teal accent-2"><i class="material-icons">class</i>Introduction to Data Analysis with Python</div>
+                <div class="collapsible-body"><img src="images/coursera.jpeg" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;"></span>Completed Introduction to Data Analysis with Python by Coursera<br>May 2020 – Present<br><a href="https://drive.google.com/file/d/1zTcHxRvW2VGiFTqh37nfxRHylSprVrw9/view?usp=shari">See Certificate</a></span></div>
+              </li>
+              <li class="red lighten-5" >
+                <div class="collapsible-header deep-purple lighten-2"><i class="material-icons">class</i>Python(Basic) by HackerRank</div>
+                <div class="collapsible-body"><img src="images/hackerrank.jpeg" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;"></span>Completed Python(Basic) by HackerRank<br>September 2020 – Present<br><a href="https://www.hackerrank.com/certificates/3fbe04d42c3d">See Certificate</a></span></div>
+              </li>
+              <li class="red lighten-5" >
+                <div class="collapsible-header teal accent-2"><i class="material-icons">class</i>Problem Solving(Basic) by HackerRank</div>
+                <div class="collapsible-body"><img src="images/hackerrank.jpeg" style="border-radius: 50%; width: 80px;"><br><span style="display: inline;">Completed Problem Solving(Basic) by HackerRank<br>September 2020 – Present<br><a href="https://www.hackerrank.com/certificates/bc4b36375972">See Certificate</a></span></div>
+              </li>
+            </ul>
+          
+              <script type="text/javascript">
+                document.addEventListener('DOMContentLoaded', function() {
+                var elems = document.querySelectorAll('.collapsible');
+                var instances = M.Collapsible.init(elems, options);
+              });
+          
+              // Or with jQuery
+          
+              $(document).ready(function(){
+                $('.collapsible').collapsible();
+              });
+              </script>
             </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Projects<i class="material-icons right">more_vert</i></span>
-              <p><a href="projects.html">Check Projects</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Projects<i class="material-icons right">close</i></span>
-              <p>This are some of the Projects Built during my Career.</p>
-            </div>
-      </div>
-      </span>
-      </div>
+          </div>  
+</section>
 
-      <div class="grid-example col s12 m4">
-       <span class="flow-text">
-        <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/experience.png" width="500" height="250">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Experience<i class="material-icons right">more_vert</i></span>
-              <p><a href="experience.html">Click here to Check</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Experience<i class="material-icons right">close</i></span>
-              <p>Here you can find some of the Internships and Jobs I had took up in my Career and that had taught me the Importance of Work and Putting in Efforts to keep Learning Everyday. </p>
-            </div>
-      </div>
-      </span>
-      </div>
+
+<section id="recommendations">
+    <hr class="new3">
+    <center><h2 class="section_header">Recommendations</h2></center>
+    <div class="container">
+    <div class="row" style="padding-left: 2px; padding-right: 2px;">
+        <div class="col s6" style="color: white; box-sizing: border-box; width: 500px; height: 400px;">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                  <div class="col s2">
+                    <img src="images/sunny.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+                  </div>
+                  <div class="col s10">
+                    <span class="black-text">
+                    <b>Sunny Kumar</b><br>Senior Operations Engineer/Manager | IT Tech Lead at Adidas
+                      <br><br><hr>
+                      "Siddhesh is very dedicated and quick learner. It was a pleasure working with him. Siddhesh hold immense technical Knowledge and experience. He always made my life easier while he worked in my Team. 
+                      Siddhesh will always be an asset to any team. I hope we get to work together again in future."
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col s6" style="color: white; box-sizing: border-box;width: 500px; height: 400px;">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                  <div class="col s2">
+                    <img src="images/ashwini.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+                  </div>
+                  <div class="col s10">
+                    <span class="black-text">
+                      <b>Ashwini Nayak</b><br>Senior Consultant | SAP Analytics | Insights & Data
+                      <br><br><hr>
+                      "Siddhesh joined my team as a developer and was quickly identifiable as a promising talent and reliable team mate. In addition to possessing an impressive set of technical skills, he is a quick learner with a thirst for knowledge and has an inquisitive attitude. 
+                      Amongst his most outstanding qualities are his proactiveness, adaptability and taking ownership of the deliverables. "
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col s6" style="color: white; box-sizing: border-box;width: 500px; height: 400px;">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                  <div class="col s2">
+                    <img src="images/radhika.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+                  </div>
+                  <div class="col s10">
+                    <span class="black-text">
+                      <b>Radhika Bung</b><br>Senior Associate Consultant at Infosys Ltd.
+                      <br><br><hr>
+                      "I worked with Siddhesh for around 9 months in Infosys. He is a very good team mate to work with and 
+                      is always helpful and available anytime. His level of patience and dedication to work is fantastic. 
+                      He is a quick learned and have good functional and technical knowledge in his domain."
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col s6" style="color: white; box-sizing: border-box;width: 500px; height: 400px;">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                  <div class="col s2">
+                    <img src="images/kshitij.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+                  </div>
+                  <div class="col s10">
+                    <span class="black-text">
+                      <b>Kshitij Pandey</b><br>Software Engineer at AC3.
+                      <br><br><hr>
+                      "II worked with Siddhesh at EduEnrol Ventures, and I must say his ability to solve a given problem 
+                      has been good throughout and consistency in delivering the best, it was nice working with him."<br><br><br>
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col s6" style="color: white; box-sizing: border-box;width: 500px; height: 400px;">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                  <div class="col s2">
+                    <img src="images/neha.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+                  </div>
+                  <div class="col s10">
+                    <span class="black-text">
+                      <b>Neha Manoli</b><br>Senior Systems Engineer at Infosys Ltd.
+                      <br><br><hr>
+                      "I have worked with Siddhesh for more than a year. He is a great team player with sound technical 
+                      and analytical skills, ensuring timely deliverables."<br><br><br>
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col s6" style="color: white; box-sizing: border-box;width: 500px; height: 400px;">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                  <div class="col s2">
+                    <img src="images/amrita.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+                  </div>
+                  <div class="col s10">
+                    <span class="black-text">
+                      <b>Amrita Sharma</b><br>Product Manager at SBI General Insurance
+                      <br><br><hr>
+                      "I worked with Siddhesh at SME MaXX , he was always quick in solving the assigned task and in 
+                      deriving the efficient way in solving Issues encountered."<br><br>
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col s6" style="color: white; box-sizing: border-box;width: 500px; height: 400px;">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                  <div class="col s2">
+                    <img src="images/arun.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+                  </div>
+                  <div class="col s10">
+                    <span class="black-text">
+                      <b>Arun Mohan</b><br>Technology Analyst at Infosys Ltd.
+                      <br><br><hr>
+                      "I had worked with Siddhesh during my training days in Infosys Mysore. He helped clear other's doubts 
+                      as well as was ready to ask for help when he was in trouble. When we were grouped in a four-member 
+                      training project I was able to experience the team player in him. Even though the project was a 
+                      bit messed up in the start we were able to overcome thanks to his positive attitude which helped us 
+                      to finish it in time. I have felt that Siddhesh is a person who wants to learn more and teach others 
+                      what he learned."
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col s6" style="color: white; box-sizing: border-box;width: 500px; height: 400px;">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                  <div class="col s2">
+                    <img src="images/mukesh.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+                  </div>
+                  <div class="col s10">
+                    <span class="black-text">
+                      <b>Mukesh Joshi</b><br>Senior Consultant at LTI. 
+                      <br><br><hr>
+                      "Hard working guy with in depth expertise."<br><br><br><br><br><br><br><br>
+                    </span>
+                  </div>
+                </div>
+              </div>
+        </div>
 
     </div>
+    </div>
+</section>
+
+<section id="youtube">
+    <hr class="new3">
+    <center><h2 class="section_header">YouTube Snippets</h2></center>
+    <br><br>
+    <div class= "container">
+        <div class="row">
+        <center>
+         <iframe src="https://www.youtube.com/embed/videoseries?list=PL6KGfGe0C8M2iS_tQK9dMAnsWCcIEfufS" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/w7vd4OHv7sY" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/gKEU9bxLtQE" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/pglC5ySlhJE" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/videoseries?list=PL6KGfGe0C8M1yCTAk0CVmQsWdWlKlEpx2" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/tIFYpQClL9I" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/9tQX3pgGFOI" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/lcWfSn6-m_8" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/AyLVQB2QEAc" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/Hc_0N7V7JRA" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/fa4hbiO1Wes" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/ETuiLUn-Yqw" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/J50WvFbidW0" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/bXfB5Y2taxM" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <iframe src="https://www.youtube.com/embed/W5AH2jqlv54" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </center>
+       </div>
+       </div>
+
+</section>
+
+
+
+
+<section id="experiences">
+  <hr class="new3">
+  <center><h2 class="section_header">Experience</h2></center>
+  <div class="container">
+  <div class="row" style="padding-left: 2px; padding-right: 2px;">
+
+
+    <div class="col s6" style="color: white; box-sizing: border-box; width: 500px; height: 400px;">
+      <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="images/accenture.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+              <b>Application Development Analyst</b><br>July 2021 - Present<br>
+                Location:Pune, India<br><hr>
+                Working as SAP BW4HANA Consultant with focus on developing Reporting Queries and Modeling of BW Components as per Business Requirements. <br><br>
+              </span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col s6" style="color: white; box-sizing: border-box; width: 500px; height: 400px;">
+      <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="images/infosys.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+              <b>Technology Analyst</b><br>October 2017 - June 2021<br>
+                Location:Pune, India<br><hr>
+                Worked as SAP Business Intelligence Consultant with a focus on Integrated Planning Module 
+                enabling business to forecast Sales and Planning based on Historical Data.<br>
+              </span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+      <div class="col s6" style="color: white; box-sizing: border-box; width: 500px; height: 400px;">
+        <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+              <div class="col s2">
+                <img src="images/smemaxx.png" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+              </div>
+              <div class="col s10">
+                <span class="black-text">
+                <b>Full Stack Web Developer(Internship)</b><br>June 2017-July 2017<br>
+                  Location:Thane, India<br><hr>
+                  Worked as a Full Stack Developer handling both Front End and Back End Development.<br><br>
+                </span>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="col s6" style="color: white; box-sizing: border-box; width: 500px; height: 400px;">
+      <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="images/eduenrol.jpeg" style="border-radius: 50%; width: 65px;"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+              <b>Full Stack Web Developer(Internship)</b><br>February 2017 - May 2017<br>
+                Location:Mumbai, India <br><hr>
+                Worked as a Full Stack Developer developing Front End and Business Logic for Back End as per Requirement.
+              </span>
+            </div>
+          </div>
+        </div>
   </div>
+
+  </div>
+  </div>
+</section>
+
+
+<section id="contact">
+  <hr class="new3">
+  <center><h2 class="section_header">Contact</h2></center>
+  <div class="container">
+  <div class="row" style="padding-left: 2px; padding-right: 2px;">
+
+    <center class="section_content">Like what you See ..?<br></center>
+    <center><h3>I'd Love to hear from you ! </h3><br>
+    <a class="waves-effect lime accent-1 btn" href="mailto:siddheshkadam136@gmail.com" style="color: black;">
+      <i class="material-icons left">email</i>Get in Touch !</a>
+  </center>
+    
+  </div>
+  </div>
+</section>
+
+<section id="connect">
+  <hr class="new3">
+  <center><h2 class="section_header">Connect</h2></center>
+  <div class="container">
+  <div class="row" style="padding-left: 2px; padding-right: 2px;">
+
+    <center class="section_content">Connect with me on<br><br>
+      <div class="row">
+      <a href="https://github.com/Siddhesh136"><img src="images/github.png" style="border-radius: 50%; width: 65px;" ></a>&nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/siddhesh-kadam-9a540a53/"><img src="images/linkedin.png" style="border-radius: 50%; width: 65px;" ></a>&nbsp;&nbsp;
+      <a href="https://mobile.twitter.com/Siddhesh136"><img src="images/twitter.jpeg" style="border-radius: 50%; width: 65px;" ></a>&nbsp;&nbsp;
+      <a href="https://www.instagram.com/siddheshkadam136/"><img src="images/instagram.jpeg" style="border-radius: 50%; width: 65px;" ></a>&nbsp;&nbsp;
+      
+    </div>
+    </center>
+
+    
+  </div>
+  </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   
 
-
-
-    <footer class="page-footer purple darken-4">
-          <div class="container ">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Siddhesh Kadam : Portfolio</h5>
-                <p class="grey-text text-lighten-4">Thanks for Visiting my Website.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="youtube.html">YouTube</a></li>
-                  <li><a class="grey-text text-lighten-3" href="http://techhacked136.blogspot.com/">Blog</a></li>
-                  <li><a class="grey-text text-lighten-3" href="projects.html">Projects</a></li>
-                  <li><a class="grey-text text-lighten-3" href="experience.html">Experience</a></li>
-                  <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2018 Copyright
-            
-            </div>
-          </div>
-        </footer>
-
-      <!--JavaScript at end of body for optimized loading-->
-        <!--Import jQuery before materialize.js-->
-  
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/particles.js"></script>
-      <script type="text/javascript" src="js/app.js"></script>
-    </body>
-  </html>
+</div>
+</body>
+</html>
