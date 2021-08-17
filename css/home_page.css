@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(0, 0, 0);
+  }
+  h1{
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue
+  }
+  h3{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'STIX Two Text', serif;
+    color: aqua;
+    font-size: 160%;
+  }
+
+  hr.new3 {
+    border-top: 2px dotted red;
+    padding-top: 2px;
+  }
+
+  h4{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'STIX Two Text', serif;
+    color: bisque;
+    font-size: 130%;
+  }
+
+  .section_header{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'STIX Two Text', serif;
+    font-family: 'WindSong', cursive;
+    color: lightcoral;
+    font-size: 400%;
+    padding-top: 30px;
+  }
+
+ .section_content{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'STIX Two Text', serif;
+    color:white;
+    font-size: 150%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .circular_image {
+    padding-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: contain;
+    /* commented for demo
+    float: left;
+    margin-left: 125px;
+    margin-top: 20px;
+    */
+    
+    /*for demo*/
+    display:inline-block;
+    vertical-align:middle;
+  }
+ 
+ 
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
